@@ -2,7 +2,7 @@ import random
 
 
 class Hider:
-    """A code template for a the hider whom the seeker looks for. The
+    """A code template for a hider whom the seeker looks for. The
     responsibility of this class of objects is to stay in one location so that
     the seeker will be able to pursue and find the location.
 
@@ -24,7 +24,7 @@ class Hider:
         self.distance = [0, 0]  # start with two so get_message always works
 
     def get_hint(self):
-        """Gets a message from the hider.
+        """Gets a message for the seeker.
 
         Args:
           self (Hider): An instance of Hider.
